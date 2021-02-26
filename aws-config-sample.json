@@ -1,0 +1,17 @@
+{
+    "network-acl-id": "acl-xxxxx",
+    "rule-number": 999,
+    "security-groups": 
+        [
+            {
+                "security-group-id": "sg-xxxxx",
+                "description": "SSH from xxxxx",
+                "port": 22
+            },
+            {
+                "security-group-id": "sg-xxxxx",
+                "description": "REDIS from xxxx",
+                "port": 6379
+            }
+        ]
+}
