@@ -1,6 +1,8 @@
 # awshelper
 
-This repository provides some helper around aws.
+This repository provides helper to allow IP address from its domaine name.
+
+Please ensure your AWS credentials are set: https://docs.aws.amazon.com/credref/latest/refdocs/file-location.html
 
 ## Usage
 
@@ -16,4 +18,4 @@ python .\scripts\__main__.py  -d "yourdomainname" -f "<file_to_config>"
 
 ## File config format
 
-Config format is describe thanks to the sample file: aws-config-sample.json
+Config format is described thanks to the sample file: aws-config-sample.json
